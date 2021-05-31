@@ -1,0 +1,39 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition-duration: .8s;
+}
+
+.default {
+    background-color: $logo_blue;
+    @include light($logo_blue);
+}
+
+.error {
+    background-color: $col-9;
+    @include light($col-9);
+}
+
+.info {
+    background-color: $col-1;
+    @include light($col-1);
+}
+
+.success {
+    background-color: $col-10;
+    @include light($col-10);
+}
+
+.warning {
+    background-color: $col-2;
+    @include light($col-2);
+}
